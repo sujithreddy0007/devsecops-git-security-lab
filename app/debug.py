@@ -1,1 +1,3 @@
-API_KEY = "FAKE-TRAINING-SECRET-123456"
+import os
+
+API_KEY = os.getenv("API_KEY")
